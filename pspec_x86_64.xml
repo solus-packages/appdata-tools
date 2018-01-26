@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>appdata-tools</Name>
+        <Homepage>http://people.freedesktop.org/~hughsient</Homepage>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop.gnome.core</PartOf>
+        <Summary xml:lang="en">appdata validation tools</Summary>
+        <Description xml:lang="en">appdata validation tools
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>appdata-tools</Name>
+        <Summary xml:lang="en">appdata validation tools</Summary>
+        <Description xml:lang="en">appdata validation tools
+</Description>
+        <PartOf>desktop.gnome.core</PartOf>
+        <Files>
+            <Path fileType="data">/*</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="4">
+            <Date>2018-01-26</Date>
+            <Version>0.1.7</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
