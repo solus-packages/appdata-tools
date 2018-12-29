@@ -3,10 +3,10 @@
         <Name>appdata-tools</Name>
         <Homepage>http://people.freedesktop.org/~hughsient</Homepage>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>desktop.gnome.core</PartOf>
         <Summary xml:lang="en">appdata validation tools</Summary>
         <Description xml:lang="en">appdata validation tools
@@ -20,16 +20,22 @@
 </Description>
         <PartOf>desktop.gnome.core</PartOf>
         <Files>
-            <Path fileType="data">/*</Path>
+            <Path fileType="executable">/usr/bin/appdata-validate</Path>
+            <Path fileType="data">/usr/share/aclocal/appdata-xml.m4</Path>
+            <Path fileType="data">/usr/share/appdata/schema/appdata.rnc</Path>
+            <Path fileType="data">/usr/share/appdata/schema/appdata.xsd</Path>
+            <Path fileType="data">/usr/share/appdata/schema/schema-locating-rules.xml</Path>
+            <Path fileType="data">/usr/share/emacs/site-lisp/site-start.d/appdata-rng-init.el</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/appdata-tools.mo</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-01-26</Date>
-            <Version>0.1.7</Version>
+        <Update release="5">
+            <Date>2018-12-29</Date>
+            <Version>0.1.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

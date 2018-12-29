@@ -1,17 +1,16 @@
-name        : appdata-tools
-version     : 0.1.7
-release     : 4
-source      :
-    - http://people.freedesktop.org/~hughsient/releases/appdata-tools-0.1.7.tar.xz : 3d704715aa105cdfa50b1dfbdc352445a2ceafd26ba01ff3260b0bcbf3d726c8
-homepage    : http://people.freedesktop.org/~hughsient
-license     : GPL-2.0
-component   : desktop.gnome.core
-summary     : appdata validation tools
-description : |
+name       : appdata-tools
+version    : 0.1.8
+release    : 5
+source     :
+    - http://people.freedesktop.org/~hughsient/releases/appdata-tools-0.1.8.tar.xz : 401583d27f0f91bbc03de09f53efd4bf86b20da37d6930ff7bff297d7f1e5461
+homepage   : http://people.freedesktop.org/~hughsient
+license    : GPL-2.0-or-later
+component  : desktop.gnome.core
+summary    : appdata validation tools
+description: |
     appdata validation tools
-builddeps   :
-    - pkgconfig(gdk-pixbuf-2.0)
-    - pkgconfig(libsoup-2.4)
+builddeps  :
+    - pkgconfig(appstream-glib)
 patterns   :
     - /*
 setup      : |
