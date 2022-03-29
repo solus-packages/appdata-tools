@@ -1,0 +1,3 @@
+appdata-validate:__bss_start
+appdata-validate:_edata
+appdata-validate:_end
